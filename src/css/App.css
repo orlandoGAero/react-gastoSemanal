@@ -1,0 +1,121 @@
+@import url('normalize.css');
+@import url('skeleton.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400');
+
+body {
+  background: #000428;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428);
+}
+
+header {
+  margin: 1.875rem 0;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  font-size: 4.8rem !important;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #004e92;
+  margin-bottom: 1.875rem; /*30px*/
+  font-size: 3rem!important;
+  text-align: center;
+}
+
+.alert p {
+  margin-bottom: 0!important;
+}
+
+.contenido {
+  padding: 1.25rem;
+}
+
+.contenido-principal {
+  background-color: white;
+  padding: 1.875rem; /*30px*/
+  border-radius: 1.25rem; /*20px*/
+}
+
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.alert-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.gastos-realizados {
+  margin-bottom: 2rem;
+}
+
+.gastos-realizados li {
+  list-style: none;
+  margin-bottom: 0rem;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 1rem 0;
+}
+
+.gastos-realizados li:last-of-type {
+  margin-bottom: 0!important;
+}
+
+.gastos-realizados li p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.gastos-realizados li p .gasto {
+  background-color: #004085;
+  padding: 1rem;
+  color: white;
+}
+
+.campo {
+  margin-bottom: 2rem;
+}
+
+.presupuesto p{
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.presupuesto p span {
+  font-weight: normal;
+}
+#gastos {
+  margin-bottom: 30px;
+}
+
+
